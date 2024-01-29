@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" 
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Your Florist</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+        }
+
+        header {
+            position: relative;
+            text-align: center;
+            color: white;
+            background: url('flowers.jpg') center/cover no-repeat; /* Replace 'your-florist-shop-image.jpg' with your image URL */
+            height: 500px; /* Adjust the height as needed */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        header h1 {
+            font-size: 3.5em;
+            margin: 0;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+        }
+		
+		h1 {
+            font-size: 2.6em;
+            margin: 0;
+        }
+		
+		section {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .services-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .service-box {
+            flex: 1;
+            max-width: 300px;
+            margin: 10px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+        }
+
+        .service-box h2 {
+            color: #333;
+        }
+
+        .service-box p {
+            color: #666;
+        }
+		
+		i.service-icon {
+            font-size: 24px;
+            margin-bottom: 10px;
+			color: #BF506E;
+        }
+		
+		.about-us {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .about-container {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            margin-top: 20px;
+			max-height: 400px; /* Adjust the height as needed */
+
+        }
+
+        .about-text {
+            flex: 6;
+            text-align: justify;
+			padding-left: 30px;
+        }
+
+        .about-image {
+            flex: 3;
+            width: 400px;
+            height: 400px; /* Set max-height to 100% */
+            margin-left: 0px;
+            border-radius: 10px;
+        }
+		
+		 .gallery {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .image-container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .gallery-image {
+            max-width: 30%; /* Adjust the width as needed */
+            margin: 10px;
+            border-radius: 10px;
+        }
+		
+		.about-image img {
+max-width: 100%;
+    max-height: 100%;		}
+	
+		.footer {
+             background-color: #222;
+            color: #ddd;
+            padding: 20px;
+            text-align: center;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .footer-section {
+            flex: 1;
+            margin-bottom: 20px;
+            max-width: 300px; /* Set a maximum width for each section if needed */
+        }
+
+        .map-container {
+            height: 300px; /* Adjust the height of the map container as needed */
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome</h1>
+    </header>
+
+    <!-- Other sections of your website go here -->
+	 <section>
+        <h1>Services</h1>
+        
+        <div class="services-container">
+            <div class="service-box">
+                <h2>Flower Arrangements</h2>
+				<i class="fa-solid fa-fan service-icon"></i>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+
+            <div class="service-box">
+                <h2>Event Decorations</h2>
+				<i class="fa-solid fa-face-kiss-wink-heart service-icon"></i>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+
+            <div class="service-box">
+                <h2>Flower Delivery</h2>
+				<i class="fas fa-truck service-icon"></i>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+        </div>
+    </section>
+	
+	<section class="about-us">
+        <h1>About Us</h1>
+
+        <div class="about-container">
+            <div class="about-text">
+                <p>Welcome to Miezi's, where the love for flowers blossoms into artistry. Meet Miezi, the passionate owner and florist behind the enchanting creations.</p>
+                <p>Rooted in a deep love for flowers cultivated from her mom's garden, Miezi transformed her lifelong passion into a thriving business. In 2015, she opened the doors to her floral wonderland, aiming to share the beauty of nature's gifts with the world.</p>
+                <p>Miezi's dedication to quality and artistry is evident in every arrangement that leaves her shop. Whether it's a vibrant bouquet or an elegant centerpiece, each creation tells a story of craftsmanship and love for the art of floristry.</p>
+				<p>Miezi continues to draw inspiration from the natural world, crafting unique and personalized floral experiences for her customers. Her commitment to sustainable practices and using locally sourced blooms reflects not only her love for flowers but also her desire to contribute to a greener, more eco-friendly community.</p>
+                <p>She invites you to experience the magic of flowers - where every petal, color, and fragrance is carefully curated to bring joy and beauty into your special moments.</p>
+            </div>
+
+            <div class="about-image">
+                <img src="carrying-flowers.jpg" alt="About Us Image"> <!-- Replace with the actual path to your image -->
+            </div>
+        </div>
+    </section>
+
+	<section class="gallery">
+        <h1>Gallery</h1>
+
+        <div class="image-container">
+            <img class="gallery-image" src="flower1.jpg" alt="Flower Arrangement 1">
+            <img class="gallery-image" src="flower2.jpg" alt="Flower Arrangement 2">
+            <img class="gallery-image" src="flower3.jpg" alt="Event Decoration 1">
+            <!-- Add more images as needed -->
+        </div>
+    </section>
+	
+	<footer class="footer">
+        <div class="footer-section">
+            <h2>Contact Details</h2>
+            <p>Address: [Your Florist Address]</p>
+            <p>Email: info@example.com</p>
+            <p>Phone: (123) 456-7890</p>
+        </div>
+
+        <div class="footer-section">
+            <h2>Operating Hours</h2>
+            <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
+            <p>Saturday: 10:00 AM - 4:00 PM</p>
+            <p>Sunday: Closed</p>
+        </div>
+
+        <div class="footer-section">
+            <h2>Location</h2>
+            <div class="map-container">
+                <!-- Embed your map code here or use an iframe -->
+                <!-- Example using Google Maps iframe -->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1dYOUR_LATITUDE!2dYOUR_LONGITUDE!3dYOUR_ZOOM_LEVEL!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3AYOUR_BUSINESS_NAME!2sYOUR_BUSINESS_NAME!5e0!3m2!1sen!2sus!4vYOUR_EMBEDDED_MAP_API_KEY" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+</html>
